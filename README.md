@@ -19,3 +19,10 @@ git submodule update --init --remote --recursive --merge
 ## 설명
 - .vimrc 파일 softlink로 연결  
 - F9: NERDTree toggle
+
+## nerd-fonts 설치
+git clone https://github.com/ryanoasis/nerd-fonts  
+cd nerd-fonts  
+./install.sh  
+cd ..  
+rm -rf nerd-fonts  
