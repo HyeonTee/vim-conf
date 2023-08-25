@@ -1,7 +1,7 @@
 # vim-conf
 
 ## 설정 불러오기
-git clone https://github.com/HyeonTee/vim-conf.git  
+git clone https://github.com/HyeonTee/vim-conf.git .vim  
 cd .vim  
 git config user.name "●●●●●●●●"  
 git config user.email "●●●●●●●●●"  
