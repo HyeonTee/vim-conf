@@ -19,7 +19,7 @@ git submodule update --init --remote --recursive --merge
 ## 설명
 - .vimrc 파일 softlink로 연결  
 - F9: NERDTree toggle
-- "\" + "숫자" : 해당 숫자 buffer로 이동
+- "\\" + "숫자" : 해당 숫자 buffer로 이동
 
 ## nerd-fonts 설치  
   
