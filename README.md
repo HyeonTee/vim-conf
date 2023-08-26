@@ -20,9 +20,8 @@ git submodule update --init --remote --recursive --merge
 - .vimrc 파일 softlink로 연결  
 - F9: NERDTree toggle
 
-## nerd-fonts 설치
-- VimDevIcons는 NERDTree, vim-airline, 𝓿𝓲𝓶 -𝓫𝓾𝓯𝓯𝓮𝓽 등에 폰트 Glyph로 아이콘을 표시해주는데, 이를 위해서 nerd-fonts가 필요하다.  
-
+## nerd-fonts 설치  
+  
 git clone https://github.com/ryanoasis/nerd-fonts  
 cd nerd-fonts  
 ./install.sh  
