@@ -28,3 +28,8 @@ cd nerd-fonts
 ./install.sh  
 cd ..  
 rm -rf nerd-fonts  
+
+### nerd-font for Mac  
+brew tap homebrew/cask-fonts  
+brew install --cask font-hack-nerd-font  
+이후 터미널의 폰트를 hack nerd font로 변경
