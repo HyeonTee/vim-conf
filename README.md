@@ -3,9 +3,6 @@
 ## 설정 불러오기
 git clone https://github.com/HyeonTee/vim-conf.git .vim  
 cd .vim  
-git config user.name "●●●●●●●●"  
-git config user.email "●●●●●●●●●"  
-git config credential.helper store  
 git submodule update --init --recursive  
 ln -s ~/.vim/vimrc.vim ~/.vimrc  
 sudo ln -s ~/.vim /root/.vim  
@@ -17,7 +14,7 @@ git pull
 git submodule update --init --remote --recursive --merge  
 
 ## 설명
-- .vimrc 파일 softlink로 연결  
+- .vimrc 파일 symbolic link  
 - F9: NERDTree toggle
 - "\\" + "숫자" : 해당 숫자 buffer로 이동
 
