@@ -10,8 +10,6 @@ set t_RV= ttymouse=xterm2
 set splitbelow
 set splitright
 set background=dark
-set autoindent
-set cindent
 set shiftwidth=4
 
 if has("syntax")
